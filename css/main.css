@@ -1,0 +1,374 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+body{
+	width: 1024px;
+	margin: 0 auto;
+	background-color: white;
+}
+#container1,#container2,#container3,#container4,#container5,#container6{
+	height: 850px;
+	width: 100%
+	display : inline-block;
+
+	position: relative;
+}
+#container1{
+	background-color: azure;
+}
+#subcontainer1{
+	background-image: url("../images/webimages/wear-collection-1990.png");
+	height: 400px;
+	width:500px;
+	float: left;
+}
+#subcontainer2{
+	background-image: url("../images/webimages/bgsecond.png");
+	height: 832px;
+	width: 500px;
+	margin-left: 20px;
+	float: left;
+}
+#subcontainer3{
+	position:relative;
+	top:-360px;
+	left: 150px;
+}
+#divheader{
+	text-align: left;
+}
+header h1{
+	font-family: 'Philosopher';
+	color: #0b6021;
+	font-size: 48px;
+}
+header img{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	padding-left: 80px;
+}
+#shopnowbutton{
+	position: relative;
+	top:25px;
+	background-color: aliceblue;
+	height: 40px;
+	width: 150px;
+	margin-left: 50px;
+	padding-top: 10px; 
+}
+header a{
+	position: relative;
+	left: 40px;
+	font-size: 14px;
+	font-family: 'cardo';
+	color:#198735;
+	text-decoration: none;
+
+}
+#shopnowbutton:hover{
+ 	background-color: beige;
+}
+#container2,#container3,#container4{
+	text-align: center;
+	height: 800px;
+}
+#container2{
+	height: 600px;
+	padding-top: 200px;
+	background-color: white;
+}
+
+#column1,#column2,#column3{
+	float: left;
+	width: 30%;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 80px;
+}
+#container2 h2{
+	font-family: 'Alice';
+	font-size: 30px;
+}
+#container2 img{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 20px;
+}
+#container2 p{
+	padding:20px;
+	font-family: 'Hind Vadodara';
+	font-size: 14px;
+	color: #555555;
+}
+#container2 h3{
+	font-family: 'Playfair Display SC';
+	font-size: 18px;
+}
+#container3{
+	background-image: url("../images/webimages/46add45404c64a51e594fa2ab8f6752b-970-80.png");
+}
+.alice{
+	font-family: 'Alice';
+	font-size: 40px;
+	padding-top: 100px;
+}
+#container3 p,#container4 p{
+	padding:18px;
+	font-family: 'Hind Vadodara';
+	font-size: 18px;
+	color: white;
+	width: 600px;
+	margin:0 auto;
+}
+#container3 a img,#container3 a{
+	width: 30px;
+	height: 30px;
+	padding-right: 20px;
+	transition-duration: 1s;
+	padding-top: 50px;
+}
+#container3 a img:hover{
+	transform: scale(2,2);
+}
+#container4{
+	background-image: url("../images/webimages/Follow-Your-Passion.png");
+	display: block;
+}
+#container4 h2{
+	padding-top: 100px;
+	position: relative;
+	left: 170px;
+}
+#container4 p{
+	color: #555555;
+	position: relative;
+	left: 200px;
+	text-align: left;
+	width: 450px;
+	font-size: 18px;
+}
+#container4 img{
+	display: block;
+	position: relative;
+	transition-duration: 1s;
+}
+#firstimg{
+	left: 570px;
+	top: 55px;
+	width: 100px;
+	height: 100px;
+}
+#secondimg{
+	left: 480px;
+	top:30px;
+	width: 100px;
+	height: 100px;
+}
+#thirdimg{
+	left: 400px;
+	width: 120px;
+	height: 120px;
+}
+#firstapp,#secondapp,#thirdapp,#fourthapp,#container4 a{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+#container4 a img{
+	width: 30px;
+	height: 30px;
+	transition-duration: 1s; 
+	
+}
+#container4 a img:hover{
+	width: 50px;
+	height: 50px;
+}
+#container4 img:hover{
+		width: 130px;
+		height: 130px;
+}
+#firstapp img,#firstapp{
+	left: 400px;
+	top:-40px;
+}
+#secondapp img{
+	left: 420px;
+	top:-20px;
+}
+#thirdapp img{
+	left: 430px;
+	top:15px;
+}
+#fourthapp img{
+	left: 410px;
+	top:60px;
+}
+#container5{
+	background-color: #489fc0;
+	height: 700px;
+}
+#con5column1,#con5column2{
+	width: 50%;
+	float: left;
+}
+#con5column1 h2{
+	color: white;
+	position: relative;
+	left: 60px;
+	width: 500px;
+	padding-bottom: 20px;
+
+}
+#con5column1 p{
+	color: white;
+	position: relative;
+	left: 50px;
+	width: 450px;
+	padding-bottom: 30px;
+}
+#con5column1 img{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	left: 100px;
+}
+#con5column2 img{
+	position: relative;
+	top: 0;
+	width: 511px;
+	height: 700px;
+
+}
+#con6ellipse{
+	border-radius: 100%;
+	background-color: #7da7d9;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	margin:0 auto;
+
+}
+#con6square{
+	position: relative;
+	top: 100px;
+}
+#con6ellipse h3{
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: 50px;
+
+}
+#container6{
+	background-color: cornsilk;
+}
+#container6 a,#container6 a img,#container6 div{
+		height: 70px;
+		width: 70px;
+}
+
+#duolingodiv{
+	position: relative;
+	top:520px;
+	left: 140px;
+}
+#messengerdiv{
+	position: relative;
+	top:250px;
+	left: 120px;
+}
+#nprdiv{
+	position: relative;
+	top:0px;
+	left: 280px;
+}
+#gmusicdiv{
+	position: relative;
+	top:-70px;
+	left: 600px;
+}
+#guardiandiv{
+	position: relative;
+	top:30px;
+	left: 780px;
+}
+#wechatdiv{
+	position: relative;
+	top:180px;
+	left: 750px;
+}
+
+.con6app{
+	display: none;
+}
+
+#duolingodiv .con6app img{
+	position: relative;
+	left: 140px;
+	top:-350px;
+}
+#messengerdiv .con6app img{
+	position: relative;
+	left: 160px;
+	top:-150px;
+}
+#nprdiv .con6app img{
+	position: relative;
+	left: 0px;
+	top:30px;
+}
+#gmusicdiv .con6app img{
+	position: relative;
+	left: -320px;
+	top:30px;
+}
+#guardiandiv .con6app img{
+	position: relative;
+	left: -500px;
+	top:-140px;
+}
+#wechatdiv .con6app img{
+	position: relative;
+	left: -470px;
+	top:-360px;
+}
+#duolingodiv:hover .con6app,#messengerdiv:hover .con6app,#nprdiv:hover .con6app,
+#gmusicdiv:hover .con6app,#guardiandiv:hover .con6app,#wechatdiv:hover .con6app{
+	display: inline-block;
+}
+#container6 #dummycon{
+	background-color: white;
+	border-radius: 100%;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	left: 260px;
+	top:-190px;
+	opacity: 0.2;
+	background-color: black;
+	background-image: url("../images/webimages/apps2.png");
+}
+
+footer{
+	height: 60px;
+	width: 1024px;
+	text-align: center;
+	background-color: bisque;
+	padding-top: 15px;
+
+}
+footer img{
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 5px;
+	height: 15px;
+	width: 15px;
+	align-content: center;
+}
+.clearfix{
+	clear:both;
+}
